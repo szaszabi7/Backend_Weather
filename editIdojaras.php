@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="container">
         <form method="post">
             <div>
-                Hőmérséklet: <input type="text" name="homerseklet">
+                Hőmérséklet: <input type="number" name="homerseklet">
             </div> 
             <div>
                 Leírás: <input type="text" name="leiras">
